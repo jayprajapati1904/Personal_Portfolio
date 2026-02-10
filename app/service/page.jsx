@@ -63,7 +63,7 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-[#fffdf5] py-20 px-4 md:px-8 font-mono selection:bg-[#ff6b6b] selection:text-white">
       {/* 1. HEADER SECTION (Matches Reference Image Exactly) */}
-      <div className="max-w-7xl mx-auto mb-20 text-center relative z-10">
+      <div className=" mx-auto mb-20 text-center relative z-10">
         {/* Top Tag: "Transparent Pricing" */}
         <div className="inline-block transform -rotate-2 hover:rotate-0 transition-transform duration-300">
           <span className="bg-black text-white px-6 py-2 text-sm md:text-base font-black uppercase tracking-[0.2em] shadow-[6px_6px_0px_0px_#4ecdc4] border-2 border-transparent">
@@ -90,7 +90,7 @@ export default function ServicesPage() {
       </div>
 
       {/* 2. PRICING GRID */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-start relative z-0">
+      <div className=" mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-start relative z-0">
         {services.map((service, index) => (
           <div
             key={service.id}

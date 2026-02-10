@@ -25,7 +25,7 @@ export default function Work() {
   return (
     <main className="min-h-screen bg-[#fffdf5] pt-12 pb-24 px-4 md:px-8 font-mono text-black selection:bg-[#ff6b6b] selection:text-white">
       {/* 1. PAGE CONTAINER (The Architectural Box) */}
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto">
         {/* HEADER SECTION */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-8 gap-6">
           <div>
