@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 export default function Hero() {
   return (
     // CHANGE 1: Added 'border-b-0' to remove bottom border
@@ -25,7 +26,7 @@ export default function Hero() {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-green-600 border border-black"></span>
             </span>
             <span className="text-sm font-bold tracking-wide text-black uppercase">
-              Available for work
+              Available <span className="hidden sm:inline">for work</span>
             </span>
           </div>
         </div>
