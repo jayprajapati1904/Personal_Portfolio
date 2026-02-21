@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     // CHANGE: Added 'shadow-[8px_8px_0px_0px_#000000]' so it aligns depth with Hero
@@ -29,9 +31,12 @@ export default function Services() {
           <p className="font-medium text-sm leading-relaxed opacity-80 mb-6">
             I build fast, SEO-friendly websites using Next.js and MERN Stack.
           </p>
-          <button className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white">
+          <Link
+            href="/service"
+            className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white"
+          >
             See Packages ↘
-          </button>
+          </Link>
         </div>
 
         {/* Service 2 */}
@@ -44,9 +49,12 @@ export default function Services() {
           <p className="font-medium text-sm leading-relaxed opacity-90 mb-6">
             I integrate Python AI models into web apps (WhatsApp/Telegram bots).
           </p>
-          <button className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white">
+          <Link
+            href="/service"
+            className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white"
+          >
             View Case Studies ↘
-          </button>
+          </Link>
         </div>
 
         {/* Service 3 */}
@@ -59,9 +67,12 @@ export default function Services() {
           <p className="font-medium text-sm leading-relaxed opacity-80 mb-6">
             Neo-Brutalist, minimal, or modern interfaces that convert users.
           </p>
-          <button className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white">
+          <Link
+            href="/service"
+            className="text-xs font-bold uppercase tracking-widest border-b-2 border-current pb-1 group-hover:border-white"
+          >
             See Portfolio ↘
-          </button>
+          </Link>
         </div>
       </div>
 

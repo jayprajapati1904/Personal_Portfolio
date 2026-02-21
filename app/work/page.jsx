@@ -415,7 +415,7 @@ export default function Work() {
             Have a similar project?
           </p>
           <Link
-            href="/#contact"
+            href="/contact"
             className="inline-block bg-[#facc15] border-4 border-black px-10 py-5 text-xl md:text-2xl font-black uppercase shadow-[8px_8px_0px_0px_#000] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_#000] transition-all"
           >
             Start a Project

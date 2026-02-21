@@ -9,7 +9,10 @@ export default function Projects() {
       description:
         "Built a full-featured e-commerce web application with separate User and Admin panels, secure authentication, and role-based access. Users can browse products and place orders, while the Admin dashboard provides complete control over products, users, and order management.",
       tech: ["nextjs", "Node.js", "reactjs", "postgresql", "tailwind"],
-      links: { demo: "https://shahcreation.techorbitra.com/", code: "" },
+      links: {
+        demo: "https://shahcreation.techorbitra.com/",
+        code: "https://github.com/jayprajapati1904",
+      },
       color: "bg-[#4ecdc4]", // Teal
     },
     {
@@ -19,7 +22,10 @@ export default function Projects() {
       description:
         "Built the ShopEase e-commerce platform with secure user authentication, cart and order management, and Razorpay payment integration. Implemented a safe checkout flow with payment verification, ensuring secure transactions, reliable order processing, and a smooth shopping experience.",
       tech: ["Next.js", "Razorpay API", "Node.js", "Neon postgres", "Tailwind"],
-      links: { demo: "https://shop-ease-eight-omega.vercel.app/", code: "#" },
+      links: {
+        demo: "https://shop-ease-eight-omega.vercel.app/",
+        code: "https://github.com/jayprajapati1904",
+      },
       color: "bg-[#ff6b6b]", // Red
     },
     {
@@ -29,7 +35,10 @@ export default function Projects() {
       description:
         "Built a secure real-time chat application supporting private and group conversations using WebSocket-based communication. Implemented user authentication, end-to-end message flow, live typing indicators, and read receipts, with a clean and responsive UI designed using DaisyUI for a smooth messaging experience.",
       tech: ["Socket.io", "Express", "React", "mongodb", "daisyui"],
-      links: { demo: "https://live-chat-app-nmmz.onrender.com", code: "#" },
+      links: {
+        demo: "https://live-chat-app-nmmz.onrender.com",
+        code: "https://github.com/jayprajapati1904",
+      },
       color: "bg-[#facc15]", // Yellow
     },
     {
@@ -39,7 +48,10 @@ export default function Projects() {
       description:
         "Built a technology-focused blogging platform where developers can publish articles and users can read, like, and comment on posts. The application includes a unified Admin and User panel for managing blogs, comments, and user interactions, delivering a clean, scalable, and engaging content-sharing experience.",
       tech: ["Reactjs", "Node.js", "mongodb", "tailwind"],
-      links: { demo: "https://mern-project-mcwd.onrender.com/", code: "#" },
+      links: {
+        demo: "https://mern-project-mcwd.onrender.com/",
+        code: "https://github.com/jayprajapati1904",
+      },
       color: "bg-white", // White
     },
   ];
@@ -136,7 +148,7 @@ export default function Projects() {
           Have a project in mind?
         </h3>
         <Link
-          href="#contact"
+          href="/contact"
           className="inline-block bg-black text-white px-8 py-4 font-black text-xl border-2 border-black hover:bg-white hover:text-black shadow-[6px_6px_0px_0px_#fff] hover:shadow-[6px_6px_0px_0px_#000] transition-all"
         >
           LET'S BUILD IT ⚡

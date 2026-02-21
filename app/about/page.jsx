@@ -405,7 +405,7 @@ export default function About() {
 
             {/* CTA */}
             <Link
-              href="/#contact"
+              href="/contact"
               className="block w-full bg-[#facc15] border-4 border-black p-6 text-center shadow-[8px_8px_0px_0px_#000] hover:translate-y-1 hover:shadow-none transition-all"
             >
               <span className="text-2xl font-black uppercase">

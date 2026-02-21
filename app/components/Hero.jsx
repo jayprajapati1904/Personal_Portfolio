@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -103,9 +103,12 @@ export default function Hero() {
             ↓
           </span>
         </a>
-        <button className="flex-1 bg-[#ff6b6b] hover:bg-[#ff4747] text-white p-6 text-lg md:text-xl font-bold flex items-center justify-center gap-2 transition-all">
+        <Link
+          href="/contact"
+          className="flex-1 bg-[#ff6b6b] hover:bg-[#ff4747] text-white p-6 text-lg md:text-xl font-bold flex items-center justify-center gap-2 transition-all"
+        >
           LET'S TALK <span>→</span>
-        </button>
+        </Link>
       </div>
     </main>
   );

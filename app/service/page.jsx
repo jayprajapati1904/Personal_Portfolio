@@ -188,7 +188,7 @@ export default function ServicesPage() {
               href="#contact"
               className={`w-full py-5 text-center font-black uppercase tracking-[0.1em] text-sm border-2 border-black shadow-[4px_4px_0px_0px_#000] active:translate-y-[2px] active:shadow-none transition-all ${service.btnColor}`}
             >
-              {service.id === "03" ? "Book Consultation" : "Select Plan"}
+              {service.id === "03" ? "Book a Call  " : "Select Plan"}
             </Link>
           </div>
         ))}
