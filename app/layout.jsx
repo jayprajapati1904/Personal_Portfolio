@@ -1,6 +1,9 @@
+"use client";
 import { Bricolage_Grotesque, Space_Mono } from "next/font/google";
 import Navbar from "./components/Navbar";
 import "./globals.css";
+import { useEffect } from "react";
+import { useAuthStore } from "./store/authStore.js";
 
 // The "Star" of the show: Bricolage Grotesque
 const bricolage = Bricolage_Grotesque({
@@ -18,6 +21,11 @@ const spaceMono = Space_Mono({
 });
 
 export default function RootLayout({ children }) {
+  const { initializeAuth } = useAuthStore();
+
+  useEffect(() => {
+    initializeAuth();
+  }, []);
   return (
     <html lang="en">
       <body
