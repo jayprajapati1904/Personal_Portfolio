@@ -24,6 +24,7 @@ export default function Navbar() {
   return (
     <>
       <nav
+        aria-label="Primary"
         className="w-full sticky top-0 z-50 transition-all border-b-2"
         style={{
           backgroundColor: "var(--background)",
@@ -117,6 +118,8 @@ export default function Navbar() {
             className="md:hidden flex flex-col space-y-1.5 p-2 z-[60] relative"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
+            aria-expanded={isOpen}
+            aria-controls="mobile-navigation"
           >
             {/* Top Bar */}
             <span
@@ -154,6 +157,7 @@ export default function Navbar() {
 
       {/* 2. Sliding Sidebar Panel */}
       <div
+        id="mobile-navigation"
         className={`fixed top-0 right-0 h-full w-[80%] max-w-[300px] z-[56] border-l-4 shadow-2xl md:hidden transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
