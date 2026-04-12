@@ -142,6 +142,9 @@ export const metadata = {
       "max-video-preview": -1,
     },
   },
+  verification: {
+    google: "yZp1WdAiC8r9csPsZfqYcaGPBWBfOmjaMKVl18IFi0o",
+  },
   category: "technology",
 };
 
