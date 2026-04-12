@@ -315,6 +315,9 @@ import {
   ArrowUpRight,
   Clock,
   MapPin,
+  Linkedin,
+  Instagram,
+  Twitter,
 } from "lucide-react";
 
 export default function Contact() {
@@ -362,7 +365,7 @@ export default function Contact() {
           </div>
           <h1 className="text-6xl md:text-9xl font-black uppercase leading-[0.85] tracking-tighter">
             GET IN <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6b6b] to-black">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#ff6b6b] to-black">
               TOUCH.
             </span>
           </h1>
@@ -463,7 +466,7 @@ export default function Contact() {
           {/* PHONE CARD (Emergency Style) */}
           <Link
             href="tel:+919429468900"
-            className="flex-grow group border-4 border-black bg-[#ff6b6b] p-8 md:p-10 shadow-[8px_8px_0px_0px_#000] hover:shadow-[12px_12px_0px_0px_#000] hover:-translate-y-1 transition-all flex flex-col justify-between min-h-[300px]"
+            className="grow group border-4 border-black bg-[#ff6b6b] p-8 md:p-10 shadow-[8px_8px_0px_0px_#000] hover:shadow-[12px_12px_0px_0px_#000] hover:-translate-y-1 transition-all flex flex-col justify-between min-h-75"
           >
             <div className="flex justify-between items-start">
               <span className="bg-white border-2 border-black px-3 py-1 font-bold text-xs uppercase shadow-[2px_2px_0px_0px_#000]">
@@ -513,6 +516,69 @@ export default function Contact() {
             </span>
           ))}
         </div>
+      </div>
+
+      {/* 4. SOCIAL PROFILES */}
+      <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <Link
+          href="https://www.linkedin.com/in/jayprajapati-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border-4 border-black bg-white p-6 md:p-8 shadow-[8px_8px_0px_0px_#000] hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#4ecdc4] transition-all duration-300"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-bold uppercase tracking-widest border-b-2 border-black pb-1 w-fit">
+              LinkedIn
+            </span>
+            <Linkedin className="w-8 h-8" />
+          </div>
+          <p className="text-2xl font-black uppercase leading-tight group-hover:text-[#0a66c2] transition-colors">
+            jayprajapati-dev
+          </p>
+          <p className="mt-3 text-sm font-bold opacity-70">
+            Professional profile and career updates.
+          </p>
+        </Link>
+
+        <Link
+          href="https://www.instagram.com/j_a_y_1908/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border-4 border-black bg-[#fefbed] p-6 md:p-8 shadow-[8px_8px_0px_0px_#000] hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#ff6b6b] transition-all duration-300"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-bold uppercase tracking-widest border-b-2 border-black pb-1 w-fit">
+              Instagram
+            </span>
+            <Instagram className="w-8 h-8" />
+          </div>
+          <p className="text-2xl font-black uppercase leading-tight group-hover:text-[#ff6b6b] transition-colors">
+            j_a_y_1908
+          </p>
+          <p className="mt-3 text-sm font-bold opacity-70">
+            Behind-the-scenes work and personal updates.
+          </p>
+        </Link>
+
+        <Link
+          href="https://x.com/jayprajapa1908"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border-4 border-black bg-[#facc15] p-6 md:p-8 shadow-[8px_8px_0px_0px_#000] hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#000] transition-all duration-300"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-xs font-bold uppercase tracking-widest border-b-2 border-black pb-1 w-fit">
+              X
+            </span>
+            <Twitter className="w-8 h-8" />
+          </div>
+          <p className="text-2xl font-black uppercase leading-tight group-hover:text-black transition-colors">
+            jayprajapa1908
+          </p>
+          <p className="mt-3 text-sm font-bold opacity-70">
+            Short updates, thoughts, and announcements.
+          </p>
+        </Link>
       </div>
     </main>
   );

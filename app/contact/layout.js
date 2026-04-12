@@ -4,6 +4,11 @@ export const metadata = {
   title: "Contact Jay Prajapati",
   description:
     "Contact Jay Prajapati for freelance full stack development projects, collaborations, and consulting.",
+  keywords: [
+    "Contact Jay Prajapati",
+    "Prajapati Jay contact",
+    "Jay Prajapati freelance developer",
+  ],
   alternates: {
     canonical: `${getBaseUrl()}/contact`,
   },

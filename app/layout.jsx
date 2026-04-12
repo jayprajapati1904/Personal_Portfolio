@@ -42,7 +42,13 @@ import { Bricolage_Grotesque, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import ClientShell from "./components/ClientShell";
-import { getBaseUrl, personJsonLd, siteConfig, websiteJsonLd } from "./seo";
+import {
+  getBaseUrl,
+  organizationJsonLd,
+  personJsonLd,
+  siteConfig,
+  websiteJsonLd,
+} from "./seo";
 
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -61,6 +67,7 @@ export default function RootLayout({ children }) {
   const baseUrl = getBaseUrl();
   const personSchema = personJsonLd();
   const websiteSchema = websiteJsonLd();
+  const organizationSchema = organizationJsonLd();
 
   return (
     <html lang="en">
@@ -90,6 +97,12 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
       </body>
     </html>
   );
@@ -98,10 +111,11 @@ export default function RootLayout({ children }) {
 export const metadata = {
   metadataBase: new URL(getBaseUrl()),
   title: {
-    default: siteConfig.title,
+    default: "Jay Prajapati (Prajapati Jay) | Full Stack Developer Portfolio",
     template: "%s | Jay Prajapati",
   },
-  description: siteConfig.description,
+  description:
+    "Official portfolio of Jay Prajapati, also known as Prajapati Jay. Full stack developer from Ahmedabad, India.",
   keywords: siteConfig.keywords,
   authors: [{ name: siteConfig.name, url: getBaseUrl() }],
   creator: siteConfig.name,
