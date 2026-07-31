@@ -94,7 +94,7 @@ export default function Hero() {
       {/* 5. BOTTOM RIGHT: Call to Action */}
       <div className="lg:col-span-7 flex flex-col sm:flex-row min-h-[100px]">
         <a
-          href="/Jay_Prajapati_CV.pdf"
+          href="/jay_prajapati.pdf"
           download
           className="flex-1 bg-white hover:bg-black hover:text-white border-b-4 sm:border-b-0 sm:border-r-4 border-black p-6 text-lg md:text-xl font-bold flex items-center justify-center gap-2 transition-all group"
         >

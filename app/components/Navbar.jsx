@@ -17,7 +17,6 @@ export default function Navbar() {
   const NAV_LINKS = [
     { label: "WORK", href: "/work" },
     { label: "ABOUT", href: "/about" },
-    { label: "SERVICES", href: "/service" },
     { label: "CONTACT", href: "/contact" },
   ];
 
@@ -200,7 +199,7 @@ export default function Navbar() {
           {/* Mobile CTA */}
           <div className="mt-auto">
             <Link
-              href="/Jay_Prajapati_CV.pdf"
+              href="/jay_prajapati.pdf"
               download
               className="block w-full text-center px-6 py-4 text-sm font-bold border-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-y-[2px] active:shadow-none transition-all"
               style={{
