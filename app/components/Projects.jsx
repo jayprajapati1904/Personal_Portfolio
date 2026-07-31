@@ -4,55 +4,107 @@ export default function Projects() {
   const projects = [
     {
       id: "01",
+      title: "Payroll SaaS Platform",
+      category: "SAAS • HRMS",
+      description:
+        "Built a comprehensive HRMS & Payroll SaaS supporting employee management, attendance, leave workflows, payroll processing, and role-based administration. Integrated mobile apps, IoT biometric devices, remote attendance, and location-aware tracking for distributed teams. Automated salary calculations, overtime, deductions, and payslip generation.",
+      tech: ["Node.js", "Next.js", "React Native", "React.js", "PostgreSQL"],
+      links: {
+        demo: "#",
+        code: "https://github.com/jayprajapati1904",
+      },
+      color: "bg-[#4ecdc4]",
+    },
+    {
+      id: "02",
+      title: "Sportskins — FIFA Prediction",
+      category: "SPORTS-TECH • DATA",
+      description:
+        "Architected the backend and data infrastructure of a large-scale sports prediction platform supporting 1,000+ active users across FIFA World Cup & Premier League. Engineered resilient pipelines integrating the SportMonks API for automated match sync and result processing. Built scoring engines, leaderboards, and secure payment validation.",
+      tech: ["PHP", "Laravel", "React.js", "MySQL", "Sportsmonk API"],
+      links: {
+        demo: "#",
+        code: "https://github.com/jayprajapati1904",
+      },
+      color: "bg-[#ff6b6b]",
+    },
+    {
+      id: "03",
+      title: "Mahendra Ke Namkeen",
+      category: "ECOMMERCE • PRODUCTION",
+      description:
+        "Production-ready eCommerce platform combining intuitive customer UX with comprehensive admin controls. Implemented secure payment and identity workflows via Razorpay. Architected backend systems for order lifecycles, customer data, and operational analytics enabling sustainable business growth.",
+      tech: ["Next.js", "Node.js", "MongoDB", "Razorpay API"],
+      links: {
+        demo: "#",
+        code: "https://github.com/jayprajapati1904",
+      },
+      color: "bg-[#facc15]",
+    },
+    {
+      id: "04",
+      title: "Image Data Pipeline",
+      category: "DATA • AUTOMATION",
+      description:
+        "Automated image data collection pipeline ingesting large-scale datasets from the Pixabay API, orchestrating storage workflows across Google Drive and MongoDB. Engineered a scalable architecture managing 50,000+ image assets with metadata tracking. Built a monitoring dashboard to detect duplicates, validate integrity, and reconcile inconsistencies.",
+      tech: ["React.js", "Node.js", "Python", "Google Drive API", "MongoDB"],
+      links: {
+        demo: "#",
+        code: "https://github.com/jayprajapati1904",
+      },
+      color: "bg-white",
+    },
+    {
+      id: "05",
+      title: "Facebook Post AI Bot",
+      category: "AI • AUTOMATION",
+      description:
+        "AI-powered social media automation platform with a Streamlit interface, enabling users to transform simple topics into platform-ready content. Integrated OpenRouter LLMs and Facebook Graph API to automate content creation and publishing — eliminating manual effort with seamless end-to-end posting from ideation to publication.",
+      tech: ["Python", "Streamlit", "Meta API", "OpenRouter API"],
+      links: {
+        demo: "#",
+        code: "https://github.com/jayprajapati1904",
+      },
+      color: "bg-[#4ecdc4]",
+    },
+    {
+      id: "06",
       title: "E-Commerce & Admin Panel",
       category: "FULL STACK • MERN",
       description:
         "Built a full-featured e-commerce web application with separate User and Admin panels, secure authentication, and role-based access. Users can browse products and place orders, while the Admin dashboard provides complete control over products, users, and order management.",
-      tech: ["nextjs", "Node.js", "reactjs", "postgresql", "tailwind"],
+      tech: ["Next.js", "Node.js", "React.js", "PostgreSQL", "Tailwind"],
       links: {
         demo: "https://shahcreation.techorbitra.com/",
         code: "https://github.com/jayprajapati1904",
       },
-      color: "bg-[#4ecdc4]", // Teal
+      color: "bg-[#ff6b6b]",
     },
     {
-      id: "02",
-      title: "ShopEase Payment",
-      category: "FINTECH • INTEGRATION",
-      description:
-        "Built the ShopEase e-commerce platform with secure user authentication, cart and order management, and Razorpay payment integration. Implemented a safe checkout flow with payment verification, ensuring secure transactions, reliable order processing, and a smooth shopping experience.",
-      tech: ["Next.js", "Razorpay API", "Node.js", "Neon postgres", "Tailwind"],
-      links: {
-        demo: "https://shop-ease-eight-omega.vercel.app/",
-        code: "https://github.com/jayprajapati1904",
-      },
-      color: "bg-[#ff6b6b]", // Red
-    },
-    {
-      id: "03",
+      id: "07",
       title: "Real-Time Chat App",
       category: "SOCKET.IO • REALTIME",
       description:
         "Built a secure real-time chat application supporting private and group conversations using WebSocket-based communication. Implemented user authentication, end-to-end message flow, live typing indicators, and read receipts, with a clean and responsive UI designed using DaisyUI for a smooth messaging experience.",
-      tech: ["Socket.io", "Express", "React", "mongodb", "daisyui"],
+      tech: ["Socket.io", "Express", "React", "MongoDB", "DaisyUI"],
       links: {
         demo: "https://live-chat-app-nmmz.onrender.com",
         code: "https://github.com/jayprajapati1904",
       },
-      color: "bg-[#facc15]", // Yellow
+      color: "bg-[#facc15]",
     },
     {
-      id: "04",
+      id: "08",
       title: "DevBlog Platform",
       category: "CONTENT • CMS",
       description:
         "Built a technology-focused blogging platform where developers can publish articles and users can read, like, and comment on posts. The application includes a unified Admin and User panel for managing blogs, comments, and user interactions, delivering a clean, scalable, and engaging content-sharing experience.",
-      tech: ["Reactjs", "Node.js", "mongodb", "tailwind"],
+      tech: ["React.js", "Node.js", "MongoDB", "Tailwind"],
       links: {
         demo: "https://mern-project-mcwd.onrender.com/",
         code: "https://github.com/jayprajapati1904",
       },
-      color: "bg-white", // White
+      color: "bg-white",
     },
   ];
 

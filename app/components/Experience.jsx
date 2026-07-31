@@ -32,9 +32,15 @@ export default function Experience() {
 
         {/* RIGHT: Details (Span 9) */}
         <div className="lg:col-span-9 p-8 md:p-12 relative overflow-hidden group">
-          <h3 className="text-3xl font-black uppercase mb-2">
-            Software Development Intern
+          <h3 className="text-3xl font-black uppercase mb-1">
+            Software Dev Intern → Junior Software Developer
           </h3>
+          <p className="text-xs font-bold text-gray-500 mb-4 uppercase tracking-widest">
+            Sep 2025 – Apr 2026 (Intern) &nbsp;→&nbsp;{" "}
+            <span className="text-green-600">
+              May 2026 – Present (Junior Dev)
+            </span>
+          </p>
           <div className="flex flex-wrap gap-2 mb-6 text-sm font-bold items-center">
             <Image
               src="/exitoSystems.png"
@@ -53,49 +59,55 @@ export default function Experience() {
               Working
             </div>
 
-            <p className="text-base font-medium leading-relaxed mb-2">
-              Worked as a
-              <span className="mx-1 px-2 py-[2px] bg-black text-white font-bold border-2 border-black inline-block">
-                Frontend Developer
-              </span>
-              at
-              <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-bold border-2 border-black inline-block">
-                Exito Systems
-              </span>
-              , contributing to production-level web applications in the
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                trading
-              </span>
-              and
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                sports-tech
-              </span>
-              domain. Built responsive and scalable UI components using
-              <span className="mx-1 px-2 py-[2px] bg-[#ff6b6b] text-white font-bold border-2 border-black inline-block whitespace-nowrap">
-                React
-              </span>
-              and
-              <span className="mx-1 px-2 py-[2px] bg-[#ff6b6b] text-white font-bold border-2 border-black inline-block whitespace-nowrap">
-                Next.js
-              </span>
-              , integrated
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                REST APIs
-              </span>
-              , and implemented complex state-driven features such as
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                dashboards
-              </span>
-              ,
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                prediction flows
-              </span>
-              , and
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                data-driven views
-              </span>
-              while focusing on performance and usability.
-            </p>
+            <ul className="space-y-3 text-sm font-medium leading-relaxed">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Contributed to a comprehensive{" "}
+                  <span className="px-1 py-[1px] bg-black text-white font-bold border border-black inline-block">
+                    Payroll SaaS
+                  </span>{" "}
+                  platform — unifying workforce operations, attendance
+                  management, IoT biometric devices, and cross-platform mobile
+                  (React Native) experiences into a unified digital ecosystem.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Orchestrated data infrastructure for a{" "}
+                  <span className="px-1 py-[1px] bg-[#ff6b6b] text-white font-bold border border-black inline-block">
+                    FIFA World Cup
+                  </span>{" "}
+                  prediction platform (Sportskins), powering automated match
+                  sync, prediction evaluation, and real-time leaderboards at
+                  scale.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Crafted responsive and engaging interfaces for the{" "}
+                  <span className="px-1 py-[1px] bg-yellow-300 text-black font-bold border border-black inline-block">
+                    Himalaya Jets
+                  </span>{" "}
+                  platform — transforming design concepts into modern,
+                  user-centric web experiences across multiple content modules.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Enhanced{" "}
+                  <span className="px-1 py-[1px] bg-[#4ecdc4] text-black font-bold border border-black inline-block">
+                    TradeMatrix
+                  </span>{" "}
+                  — a strategy-driven trading platform — enabling traders to
+                  design, validate, and deploy custom strategies across leading
+                  brokerage ecosystems.
+                </span>
+              </li>
+            </ul>
           </div>
 
           <Link
@@ -124,7 +136,7 @@ export default function Experience() {
         {/* RIGHT: Details (Span 9) */}
         <div className="lg:col-span-9 p-8 md:p-12">
           <h3 className="text-3xl font-black uppercase mb-2">
-            Web Developer Intern
+            Full-Stack Developer Intern
           </h3>
           <div className="flex flex-wrap gap-2 mb-6 text-sm font-bold items-center">
             <Image
@@ -134,47 +146,50 @@ export default function Experience() {
               height={50}
               className="border  bg-white p-1"
             />
-            <span className="text-[#ff6b6b]">@ WEBSEEDER</span>
+            <span className="text-[#ff6b6b]">
+              @ WEBSEEDER TECHNOLOGIES PVT LTD
+            </span>
             <span>•</span>
             <span>REMOTE / HYBRID</span>
           </div>
 
           <div className="bg-gray-100 p-6 border-l-4 border-black mb-6 relative">
-            <p className="text-lg font-medium leading-relaxed mb-6 ">
-              Built a strong foundation in
-              <span className="mx-1 px-2 py-[2px] bg-black text-white font-bold border-2 border-black inline-block">
-                web architecture
-              </span>
-              by creating real-world landing pages using
-              <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-bold border-2 border-black inline-block whitespace-nowrap">
-                HTML
-              </span>
-              ,
-              <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-bold border-2 border-black inline-block whitespace-nowrap">
-                CSS
-              </span>
-              , and
-              <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-bold border-2 border-black inline-block whitespace-nowrap">
-                JavaScript
-              </span>
-              . Began my journey into
-              <span className="mx-1 px-2 py-[2px] bg-[#ff6b6b] text-white font-bold border-2 border-black inline-block">
-                React components
-              </span>
-              while focusing on
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                responsive design
-              </span>
-              ,
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                layout consistency
-              </span>
-              , and
-              <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                cross-device usability
-              </span>
-              .
-            </p>
+            <ul className="space-y-3 text-sm font-medium leading-relaxed">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Developed a full-stack{" "}
+                  <span className="px-1 py-[1px] bg-yellow-300 text-black font-bold border border-black inline-block">
+                    eCommerce
+                  </span>{" "}
+                  solution with secure payment processing via{" "}
+                  <span className="px-1 py-[1px] bg-black text-white font-bold border border-black inline-block">
+                    Razorpay
+                  </span>{" "}
+                  and comprehensive admin capabilities for end-to-end business
+                  operations.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Contributed to a{" "}
+                  <span className="px-1 py-[1px] bg-[#ff6b6b] text-white font-bold border border-black inline-block">
+                    MERN-based
+                  </span>{" "}
+                  task management platform — enhancing collaboration, organizing
+                  workflows, and improving team productivity.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 mt-2 bg-black shrink-0 rotate-45"></span>
+                <span>
+                  Elevated UX through responsive interface design and frontend
+                  optimization, ensuring seamless interactions across all
+                  devices and platforms.
+                </span>
+              </li>
+            </ul>
           </div>
 
           <Link
