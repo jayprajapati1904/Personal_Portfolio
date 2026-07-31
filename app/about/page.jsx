@@ -136,7 +136,7 @@ export default function About() {
                 In 12th grade, I was a blank slate. I didn&apos;t know what a
                 variable was. Entering college was a shock—everyone seemed to
                 know more than me. Instead of panicking, I got obsessed. I
-                mastered <b>C, C++, and Java</b> not because I had to, but
+                mastered <b>C, C++, and Python</b> not because I had to, but
                 because I wanted to understand how machines <i>think</i>.
               </p>
             </div>

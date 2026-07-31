@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Experience() {
   return (
     // 'border-t-0' removes the top border so it merges with the Services section above
-    <section className="w-full mx-auto border-x-4 border-b-4 border-black bg-white text-black font-mono border-t-0 relative z-20">
+    <section className="w-full mx-auto border-4 border-black bg-white text-black font-mono relative z-20">
       {/* HEADER STRIP */}
       <div className="bg-black text-white hover:bg-white hover:text-black p-4 flex justify-between items-center border-b-4 border-black">
         <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter">
@@ -195,9 +195,9 @@ export default function Experience() {
           <Link
             href="https://webseeder.com"
             target="_blank"
-            className="inline-block text-sm font-bold uppercase border-b-2 border-black hover:text-[#ff6b6b] hover:border-[#ff6b6b] transition-colors"
+            className="inline-block px-6 py-3 bg-white border-2 border-black font-bold uppercase hover:bg-black hover:text-white transition-colors shadow-[4px_4px_0px_0px_#000]"
           >
-            Visit Website ↗
+            Visit Company ↗
           </Link>
         </div>
       </div>

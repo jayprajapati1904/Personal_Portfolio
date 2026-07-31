@@ -114,6 +114,11 @@ export const metadata = {
     default: "Jay Prajapati (Prajapati Jay) | Full Stack Developer Portfolio",
     template: "%s | Jay Prajapati",
   },
+  icons: {
+    icon: [{ url: "/tab_logo.png", type: "image/png" }],
+    shortcut: ["/tab_logo.png"],
+    apple: ["/tab_logo.png"],
+  },
   description:
     "Official portfolio of Jay Prajapati, also known as Prajapati Jay. Full stack developer from Ahmedabad, India.",
   keywords: siteConfig.keywords,

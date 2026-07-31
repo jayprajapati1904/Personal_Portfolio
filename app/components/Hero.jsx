@@ -62,32 +62,23 @@ export default function Hero() {
           <span className="bg-black text-white px-2 decoration-clone">
             FULL STACK
           </span>{" "}
-          <br className="md:hidden" /> DEVELOPER
+          <br className="md:hidden" />
+          <span className="bg-[#ff6b6b] text-white px-2 decoration-clone inline-block mt-2">
+            AI & AUTOMATION
+          </span>
         </h2>
         <p className="text-base md:text-xl text-[#444] font-medium leading-relaxed max-w-2xl">
-          With
+          I&apos;m Jay Prajapati, a Computer Engineering graduate crafting
           <span className="mx-1 px-2 py-[2px] bg-[#ff6b6b] text-white font-black border-2 border-black -rotate-1 inline-block">
-            1+ years
+            full-stack products
           </span>
-          of real-world and
-          <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-black border-2 border-black rotate-1 inline-block">
-            freelance experience
+          and
+          <span className="mx-1 px-2 py-[2px] bg-[#4ecdc4] text-black font-black border-2 border-black rotate-1 inline-block">
+            AI & automation solutions
           </span>
-          , I build websites that are fast, functional, and unapologetically
-          bold. I specialize in
-          <span className="border-b-2 border-[#ff6b6b] mx-1 md:mx-2 font-bold text-black whitespace-nowrap">
-            React
-          </span>
-          ,
-          <span className="border-b-2 border-[#ff6b6b] mx-1 md:mx-2 font-bold text-black whitespace-nowrap">
-            Next.js
-          </span>
-          , and
-          <span className="border-b-2 border-[#ff6b6b] mx-1 md:mx-2 font-bold text-black whitespace-nowrap">
-            UI Design
-          </span>
-          — turning complex ideas into sharp, usable digital products for
-          clients and real-world projects.
+          that turn ideas into impactful digital experiences. I blend clean
+          code, practical thinking, and real-world problem solving to build
+          software people actually use.
         </p>
       </div>
 

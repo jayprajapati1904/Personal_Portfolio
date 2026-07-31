@@ -10,8 +10,8 @@ export default function Projects() {
         "Built a comprehensive HRMS & Payroll SaaS supporting employee management, attendance, leave workflows, payroll processing, and role-based administration. Integrated mobile apps, IoT biometric devices, remote attendance, and location-aware tracking for distributed teams. Automated salary calculations, overtime, deductions, and payslip generation.",
       tech: ["Node.js", "Next.js", "React Native", "React.js", "PostgreSQL"],
       links: {
-        demo: "#",
-        code: "https://github.com/jayprajapati1904",
+        demo: "https://payroll.coupsoft.com/login",
+        code: null,
       },
       color: "bg-[#4ecdc4]",
     },
@@ -23,8 +23,8 @@ export default function Projects() {
         "Architected the backend and data infrastructure of a large-scale sports prediction platform supporting 1,000+ active users across FIFA World Cup & Premier League. Engineered resilient pipelines integrating the SportMonks API for automated match sync and result processing. Built scoring engines, leaderboards, and secure payment validation.",
       tech: ["PHP", "Laravel", "React.js", "MySQL", "Sportsmonk API"],
       links: {
-        demo: "#",
-        code: "https://github.com/jayprajapati1904",
+        demo: "https://sportskins.uk/",
+        code: null,
       },
       color: "bg-[#ff6b6b]",
     },
@@ -36,8 +36,8 @@ export default function Projects() {
         "Production-ready eCommerce platform combining intuitive customer UX with comprehensive admin controls. Implemented secure payment and identity workflows via Razorpay. Architected backend systems for order lifecycles, customer data, and operational analytics enabling sustainable business growth.",
       tech: ["Next.js", "Node.js", "MongoDB", "Razorpay API"],
       links: {
-        demo: "#",
-        code: "https://github.com/jayprajapati1904",
+        demo: "https://mahendrakenamkeen.com/",
+        code: null,
       },
       color: "bg-[#facc15]",
     },
@@ -49,8 +49,8 @@ export default function Projects() {
         "Automated image data collection pipeline ingesting large-scale datasets from the Pixabay API, orchestrating storage workflows across Google Drive and MongoDB. Engineered a scalable architecture managing 50,000+ image assets with metadata tracking. Built a monitoring dashboard to detect duplicates, validate integrity, and reconcile inconsistencies.",
       tech: ["React.js", "Node.js", "Python", "Google Drive API", "MongoDB"],
       links: {
-        demo: "#",
-        code: "https://github.com/jayprajapati1904",
+        demo: "https://imagedata-dashboard.onrender.com/",
+        code: "https://github.com/jayprajapati1904/imagedata_dashboard",
       },
       color: "bg-white",
     },
@@ -62,8 +62,8 @@ export default function Projects() {
         "AI-powered social media automation platform with a Streamlit interface, enabling users to transform simple topics into platform-ready content. Integrated OpenRouter LLMs and Facebook Graph API to automate content creation and publishing — eliminating manual effort with seamless end-to-end posting from ideation to publication.",
       tech: ["Python", "Streamlit", "Meta API", "OpenRouter API"],
       links: {
-        demo: "#",
-        code: "https://github.com/jayprajapati1904",
+        demo: null,
+        code: "https://github.com/jayprajapati1904/Social-Media-Post-Automation",
       },
       color: "bg-[#4ecdc4]",
     },
@@ -177,18 +177,26 @@ export default function Projects() {
 
             {/* Action Buttons */}
             <div className="flex gap-4">
-              <Link
-                href={project.links.demo}
-                className="flex-1 bg-black text-white text-center py-3 font-bold border-2 border-black hover:bg-transparent hover:text-black shadow-[4px_4px_0px_0px_#000000] active:translate-y-[2px] active:shadow-none transition-all"
-              >
-                LIVE DEMO
-              </Link>
-              <Link
-                href={project.links.code}
-                className="flex-1 bg-white text-black text-center py-3 font-bold border-2 border-black hover:bg-[#ff6b6b] hover:text-white shadow-[4px_4px_0px_0px_#000000] active:translate-y-[2px] active:shadow-none transition-all"
-              >
-                CODE
-              </Link>
+              {project.links.demo ? (
+                <Link
+                  href={project.links.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-black text-white text-center py-3 font-bold border-2 border-black hover:bg-transparent hover:text-black shadow-[4px_4px_0px_0px_#000000] active:translate-y-[2px] active:shadow-none transition-all"
+                >
+                  LIVE DEMO
+                </Link>
+              ) : null}
+              {project.links.code ? (
+                <Link
+                  href={project.links.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-white text-black text-center py-3 font-bold border-2 border-black hover:bg-[#ff6b6b] hover:text-white shadow-[4px_4px_0px_0px_#000000] active:translate-y-[2px] active:shadow-none transition-all"
+                >
+                  CODE
+                </Link>
+              ) : null}
             </div>
           </div>
         ))}
