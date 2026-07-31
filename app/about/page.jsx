@@ -114,8 +114,8 @@ export default function About() {
           </h1>
           <p className="text-lg md:text-2xl font-medium max-w-3xl leading-relaxed">
             I&apos;m Jay Prajapati. I&apos;ve completed my degree in Computer
-            Engineering and turned curiosity into a profession. I didn&apos;t wait
-            for a degree to start building. I just started.
+            Engineering and turned curiosity into a profession. I didn&apos;t
+            wait for a degree to start building. I just started.
           </p>
         </div>
       </div>
@@ -174,9 +174,9 @@ export default function About() {
               </div>
 
               <p className="text-base font-bold leading-relaxed mb-6">
-                I didn&apos;t just learn in classrooms — I shipped production code at
-                real companies, working alongside engineering teams on live
-                products used by thousands of users.
+                I didn&apos;t just learn in classrooms — I shipped production
+                code at real companies, working alongside engineering teams on
+                live products used by thousands of users.
               </p>
 
               <div className="space-y-4">
@@ -327,7 +327,6 @@ export default function About() {
             </div>
           ))}
         </div>
-
       </section>
 
       {/* 4. SKILLS MARQUEE */}
