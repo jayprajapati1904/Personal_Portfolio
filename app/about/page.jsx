@@ -300,63 +300,62 @@ export default function About() {
               </div>
             </div>
 
-            {/* Chapter 3: The First Client Story */}
+            {/* Chapter 3: Professional Experience */}
             <div className="bg-[#4ecdc4] border-4 border-black p-8 md:p-12 shadow-[8px_8px_0px_0px_#000]">
               <div className="flex items-center gap-4 mb-6">
-                <div className="bg-white border-2 border-black p-2 rounded-full animate-bounce">
-                  💰
+                <div className="bg-white border-2 border-black p-2 rounded-full">
+                  🏢
                 </div>
                 <h2 className="text-3xl font-black uppercase">
-                  The First Paycheck
+                  Real Company Experience
                 </h2>
               </div>
 
-              <p className="text-lg font-bold leading-relaxed mb-4">
-                "I didn't find my first client on LinkedIn. I found them in a
-                random WhatsApp group."
-              </p>
-              <p className="text-base font-medium leading-relaxed mb-6">
-                A
-                <span className="mx-1 px-2 py-[2px] bg-yellow-300 text-black font-bold border-2 border-black inline-block">
-                  simple message
-                </span>
-                in a group led to my
-                <span className="mx-1 px-2 py-[2px] bg-black text-white font-bold border-2 border-black inline-block">
-                  first freelance client
-                </span>
-                . By sharing my work,
-                <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                  communicating clearly
-                </span>
-                , and
-                <span className="mx-1 px-2 py-[2px] bg-gray-200 text-black font-semibold border border-black inline-block">
-                  building trust
-                </span>
-                , a small task turned into a
-                <span className="mx-1 px-2 py-[2px] bg-[#ff6b6b] text-white font-bold border-2 border-black inline-block">
-                  long-term collaboration
-                </span>
-                and opened the door to my freelancing journey.
+              <p className="text-base font-bold leading-relaxed mb-6">
+                I didn't just learn in classrooms — I shipped production code at
+                real companies, working alongside engineering teams on live
+                products used by thousands of users.
               </p>
 
-              <div className="bg-white border-2 border-black p-4 text-sm font-mono rotate-1">
-                <p className="font-bold border-b border-black pb-2 mb-2">
-                  PROJECT RECEIPT #001
-                </p>
-
-                <div className="flex justify-between">
-                  <span>Service:</span>
-                  <span>Real Estate Website Development</span>
+              <div className="space-y-4">
+                <div className="bg-white border-2 border-black p-4 text-sm font-mono">
+                  <p className="font-black border-b border-black pb-2 mb-3 uppercase tracking-widest">
+                    Exito Systems Pvt Ltd
+                  </p>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold">Role:</span>
+                    <span>Intern → Junior Software Developer</span>
+                  </div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold">Duration:</span>
+                    <span>Sep 2025 – Present</span>
+                  </div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold">Products:</span>
+                    <span>Payroll SaaS, Sportskins, TradeMatrix</span>
+                  </div>
+                  <div className="flex justify-between font-bold mt-2">
+                    <span>Status:</span>
+                    <span className="text-green-600">CURRENTLY EMPLOYED ✓</span>
+                  </div>
                 </div>
 
-                <div className="flex justify-between">
-                  <span>Client:</span>
-                  <span>Confidential</span>
-                </div>
-
-                <div className="flex justify-between font-bold mt-2">
-                  <span>Status:</span>
-                  <span className="text-green-600">DELIVERED SUCCESSFULLY</span>
+                <div className="bg-white border-2 border-black p-4 text-sm font-mono">
+                  <p className="font-black border-b border-black pb-2 mb-3 uppercase tracking-widest">
+                    Webseeder Technologies Pvt Ltd
+                  </p>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold">Role:</span>
+                    <span>Full-Stack Developer Intern</span>
+                  </div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold">Duration:</span>
+                    <span>Feb 2025 – Apr 2025</span>
+                  </div>
+                  <div className="flex justify-between font-bold mt-2">
+                    <span>Status:</span>
+                    <span className="text-blue-600">COMPLETED ✓</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -385,20 +384,25 @@ export default function About() {
             {/* "Why Me" List */}
             <div className="bg-black text-white p-8 border-4 border-black shadow-[8px_8px_0px_0px_#ff6b6b]">
               <h3 className="text-xl font-black uppercase mb-4 text-[#ff6b6b]">
-                Why Clients Hire Me
+                Why Companies Hire Me
               </h3>
               <ul className="space-y-4 font-bold text-sm">
                 <li className="flex gap-3">
-                  <span className="text-[#ff6b6b]">01.</span>I don't just code;
-                  I solve business problems.
+                  <span className="text-[#ff6b6b]">01.</span>I've shipped
+                  production code in real engineering teams — not just side
+                  projects.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#ff6b6b]">02.</span>I ship fast.
-                  Deadlines are sacred.
+                  <span className="text-[#ff6b6b]">02.</span>I ramp up fast.
+                  Give me a codebase and I'm contributing within days.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#ff6b6b]">03.</span>
-                  From random WhatsApp gigs to Enterprise apps.
+                  <span className="text-[#ff6b6b]">03.</span>Full-stack depth —
+                  frontend, backend, mobile, databases, APIs.
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#ff6b6b]">04.</span>9.21 CGPA. I take
+                  both learning and delivery seriously.
                 </li>
               </ul>
             </div>
@@ -409,10 +413,10 @@ export default function About() {
               className="block w-full bg-[#facc15] border-4 border-black p-6 text-center shadow-[8px_8px_0px_0px_#000] hover:translate-y-1 hover:shadow-none transition-all"
             >
               <span className="text-2xl font-black uppercase">
-                Start a Project
+                Open to Opportunities
               </span>
               <span className="block text-xs font-bold mt-1">
-                Ready for the next challenge
+                Available for full-time roles — let's talk
               </span>
             </Link>
           </div>
