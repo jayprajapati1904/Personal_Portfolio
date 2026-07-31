@@ -2,7 +2,6 @@
 
 import React from "react";
 import Hero from "./components/Hero";
-import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import { faqJsonLd, getBaseUrl } from "./seo";
@@ -42,7 +41,6 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <Hero />
-      <Services />
       <Experience />
       <Projects />
     </main>
