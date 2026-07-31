@@ -64,7 +64,6 @@ const spaceMono = Space_Mono({
 });
 
 export default function RootLayout({ children }) {
-  const baseUrl = getBaseUrl();
   const personSchema = personJsonLd();
   const websiteSchema = websiteJsonLd();
   const organizationSchema = organizationJsonLd();

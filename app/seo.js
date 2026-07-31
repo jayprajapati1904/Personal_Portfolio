@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "Jay Prajapati | Full Stack Developer Portfolio",
   description:
     "Jay Prajapati is a full stack developer from Ahmedabad, India, building fast and scalable web applications using React, Next.js, Node.js, and MongoDB.",
-  domain: "https://prajapatijay-dev.vercel.app",
+  domain: "https://jayprajapati.techorbitra.com",
   keywords: [
     "Jay Prajapati",
     "Prajapati Jay",
@@ -94,7 +94,7 @@ export function organizationJsonLd() {
     name: siteConfig.title,
     alternateName: ["Jay Prajapati", "Prajapati Jay"],
     url: baseUrl,
-    logo: `${baseUrl}/favicon.ico`,
+    logo: `${baseUrl}/tab_logo.png`,
     sameAs: siteConfig.sameAs,
     contactPoint: [
       {

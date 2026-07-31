@@ -98,7 +98,7 @@ export default function Hero() {
           href="/contact"
           className="flex-1 bg-[#ff6b6b] hover:bg-[#ff4747] text-white p-6 text-lg md:text-xl font-bold flex items-center justify-center gap-2 transition-all"
         >
-          LET'S TALK <span>→</span>
+          LET&apos;S TALK <span>→</span>
         </Link>
       </div>
     </main>

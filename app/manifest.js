@@ -14,9 +14,8 @@ export default function manifest() {
     lang: "en-IN",
     icons: [
       {
-        src: `${baseUrl}/favicon.ico`,
-        sizes: "any",
-        type: "image/x-icon",
+        src: `${baseUrl}/tab_logo.png`,
+        type: "image/png",
       },
     ],
   };

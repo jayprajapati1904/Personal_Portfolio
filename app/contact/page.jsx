@@ -309,7 +309,6 @@ import Image from "next/image";
 import {
   Mail,
   Phone,
-  MessageCircle,
   Copy,
   Check,
   ArrowUpRight,
@@ -399,7 +398,7 @@ export default function Contact() {
             {/* Content */}
             <div className="p-8 md:p-10">
               <p className="text-gray-400 font-bold mb-4 text-sm">
-                // Click to copy or send directly
+                {"// Click to copy or send directly"}
               </p>
 
               <div className="text-3xl md:text-5xl font-black break-all mb-8 group-hover:text-[#4ecdc4] transition-colors leading-tight">

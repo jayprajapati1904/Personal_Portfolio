@@ -351,7 +351,7 @@ export default function Work() {
                       {work.year}
                     </span>
                     <span className="text-sm font-bold uppercase text-gray-500">
-                      // {work.client}
+                      {"// "}{work.client}
                     </span>
                   </div>
 

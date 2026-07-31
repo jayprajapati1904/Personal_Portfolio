@@ -211,7 +211,7 @@ export default function Projects() {
           href="/contact"
           className="inline-block bg-black text-white px-8 py-4 font-black text-xl border-2 border-black hover:bg-white hover:text-black shadow-[6px_6px_0px_0px_#fff] hover:shadow-[6px_6px_0px_0px_#000] transition-all"
         >
-          LET'S BUILD IT ⚡
+          LET&apos;S BUILD IT ⚡
         </Link>
       </div>
     </section>
